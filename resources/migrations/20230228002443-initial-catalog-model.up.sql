@@ -14,3 +14,4 @@ create table catalog.book_author (
   author_id bigint not null references catalog.author,
   book_id bigint not null references catalog.book
 );
+
